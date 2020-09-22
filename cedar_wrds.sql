@@ -9,7 +9,7 @@ SELECT connectstr AS $$dbname=wrds
 SELECT public.dblink_connect_u ('wrdsu',$$dbname=wrds
                        options=-csearch_path=factset
                        user=yiliulu
-                      password=Dl4zkadl?
+                      password=
                       host=wrds-pgdata.wharton.upenn.edu
                       port=9737$$);
 
