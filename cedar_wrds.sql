@@ -2,7 +2,7 @@
 SELECT connectstr AS $$dbname=wrds
                        options=-csearch_path=factset
                        user=yiliulu
-                      password=Dl4zkadl?
+                  
                       host=wrds-pgdata.wharton.upenn.edu
                       port=9737$$;
 
