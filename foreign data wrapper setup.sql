@@ -14,7 +14,7 @@ CREATE SERVER foreign_server
 
 -- auto-generated definition
 create user mapping for postgres
-  server foreign_server options (user 'yiliulu', password 'Wsw8dgnl');
+  server foreign_server options (user 'yiliulu', password '');
 
 --import foreign schema
 CREATE SCHEMA comp_global;
